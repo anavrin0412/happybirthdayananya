@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Happy Birthday Ananya</title>
+   <link rel="stylesheet" href="stylesheet.css" type="text/css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   <script>
+      function wishes() {
+         alert("Your Wishes are Successfully sent!!")
+      }
+
+      function initBody() {
+         var audioId = document.getElementById("audio");
+         audioId.play();
+         audioId.volume = 0.25;
+      }
+   </script>
+</head>
+
+<body onload="initBody()">
+   <div class="header">
+      <div id="left">
+         <a href="main.html" class="btn-left">
+            <img class="ananya" src="ananya pic.jpg" alt="Ananya Pic" style="height: 6.8rem;">
+         </a>
+      </div>
+
+      <div class="mid">
+         <h1>Ananya Kapoor</h1>
+      </div>
+      <div class="right">
+         <a href="https://www.facebook.com/profile.php?id=100008442932911" target="_blank" class="btn facebook"><span class="fa fa-facebook"></span>Happy Birthday</a><br>
+         <a href="https://instagram.com/ananyaaakapoor?igshid=1tvv3z80iruzb" target="_blank" class="btn instagram"><span class="fa fa-instagram"></span>11<sup>th</sup> August, 2020</a><br>
+         <a href="https://web.whatsapp.com/" target="_blank" class="btn whatsapp"><span class="fa fa-whatsapp"></span>19<sup>th</sup> Celebration</a><br>
+      </div>
+   </div>
+   <marquee direction="left" loop="infinite" scrollamount="5">!! Happy Birthday To You !! Happy Birthday To You !! Happy Birthday To You !! Happy Birthday To You !! Happy Birthday To You !!</marquee>
+
+   <div class="main">
+      <div>
+         <div class="top-left">
+            <img class="lftbln" src="balloons-left.png" alt="balloon-left">
+         </div>
+         <div class="top-right">
+            <img src="cake.gif" alt="cake" class="cake">
+            <audio id="audio" controls autoplay loop>
+               <source src="Happy Birthday To You.wav" type="audio/wav">
+               </audio>
+         </div>
+      </div>
+
+      <div class="main-mid">
+         <video width="640" height="480" class="video-one" controls>
+            <source src="Ananya birthday (video 1).mp4" type="video/mp4">
+        </video>
+         <img class="rghtbln" src="balloons-left.png" alt="balloon-right">
+      </div>
+      <div>
+         <div class="left-one">
+            <div id="poem">
+               It’s your birthday today,<br> Be thankful to the Almighty,<br> It’s your birthday today,<br> Blessing upon you he will lay.<br>
+               <br> It’s your birthday today,<br> Another year unfolds your way,<br> It’s your birthday today,<br> Spend it in the most special way.<br>
+               <br> It’s your birthday today,<br> A day worth storing in your memory,<br> It’s your birthday today,<br> Let love rule your heart every single day.<br>
+               <br> It’s your birthday today,<br> Make friends a plenty,<br> It’s your birthday today,<br> Give smiles to many.<br>
+               <br> It’s your birthday today,<br> Be nothing else but happy<br> It’s your birthday today,<br> Take the sadness away.<br>
+               <br> It’s your birthday today,<br> People are ready to party<br> It’s your birthday today,<br> Champagnes are now ready.<br>
+               <br> Because, it’s your birthday today,<br> Wish all the best that life can be.<br>
+            </div>
+         </div>
+         <center>
+            <div class="right-one">
+               <video width="700" height="395" class="video-two" controls>
+                  <source src="Happy birthday Ananya (wishes).mp4" type="video/mp4">
+              </video>
+            </div>
+         </center>
+      </div>
+   </div>
+
+   <div id="footer">
+      <div class="footer-left">
+         <h1><b>Send your wishes through</b></h1>
+         <div>
+            <a onclick="wishes()" class="botn"><img id="card" src="BDay Ananya.png"></a>
+         </div>
+      </div>
+      <div class="footer-mid">
+         <p><b>&copy; Copyright 2020</b></p>
+      </div>
+      <div class="footer-right">
+         <span><u><b>Creators</b> </u></span><br><br>
+         <a href="https://www.instagram.com/vansh_ahuja._/?hl=en" target="_blank" class="btn instagram"><span class="fa fa-instagram"></span><b>Vansh Ahuja</b> </a><br>
+         <a href="https://www.instagram.com/12_gargee.d/?hl=en" target="_blank" class="btn instagram"><span class="fa fa-instagram"></span><b>Gargee Dua</b> </a><br>
+      </div>
+   </div>
+</body>
+
+</html>
