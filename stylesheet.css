@@ -1,0 +1,279 @@
+   body {
+      margin: 0px;
+      padding: 0px;
+      background-color: white;
+   }
+   /*---------------HEADER---------------------*/
+   
+   .header {
+      display: flex;
+      padding: 0.5rem;
+      height: 8rem;
+      max-width: 100%;
+      background-color: rgb(255, 163, 194);
+   }
+   
+   .btn-left:active {
+      border: none;
+   }
+   
+   .btn-left {
+      border-width: 0px;
+      background-color: rgb(255, 163, 194);
+   }
+   
+   .btn-left>img {
+      border-radius: 50%;
+      margin-top: 8px;
+      margin-left: 7px;
+   }
+   
+   .btn-left>img:hover {
+      transform: scaleX(-1);
+   }
+   
+   .mid {
+      align-self: center;
+      justify-self: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: rgb(245, 255, 254);
+      text-shadow: 6px 4px 4px rgb(194, 100, 132);
+   }
+   
+   .mid>h1 {
+      font-size: 3rem;
+   }
+   
+   .right>a {
+      text-decoration: none;
+   }
+   
+   .facebook,
+   .whatsapp,
+   .instagram {
+      font-size: 1rem;
+   }
+   
+   .btn {
+      padding: 10px 18px;
+      color: rgb(245, 255, 254);
+      display: inline-block;
+      border-radius: 4px;
+   }
+   
+   .fa {
+      margin-right: 10px;
+   }
+   
+   .facebook:hover {
+      opacity: 0.8;
+      background-color: #3b5998;
+   }
+   
+   .instagram:hover {
+      opacity: 0.8;
+      background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #fdf497);
+   }
+   
+   .whatsapp:hover {
+      opacity: 0.8;
+      background-color: #3aaa49;
+   }
+   /*---------------MAIN---------------------*/
+   
+   marquee {
+      font-variant: small-caps;
+      font-size: 3rem;
+      color: #d52b25;
+      word-spacing: 1rem;
+      letter-spacing: 0.5rem;
+   }
+   /*---------------TOP---------------------*/
+   
+   .lftbln {
+      width: 35.5rem;
+   }
+   
+   .top-left {
+      opacity: 0.5;
+      position: absolute;
+   }
+   
+   #audio {
+      opacity: 0.5;
+      outline: none;
+      position: absolute;
+      top: 57%;
+      left: 28%;
+      width: 18rem;
+   }
+   
+   .cake {
+      height: 30rem;
+      z-index: -1;
+   }
+   
+   .top-right {
+      float: right;
+      position: relative;
+      margin-left: 50rem;
+      margin-right: 8rem;
+   }
+   /*---------------MID---------------------*/
+   
+   .video-one {
+      margin-top: 150px;
+      margin-left: 90px;
+      outline: none;
+   }
+   
+   .rghtbln {
+      margin-top: 70px;
+      opacity: 0.5;
+      width: 35.5rem;
+      transform: scaleX(-1);
+      float: right;
+   }
+   /*---------------BOTTOM---------------------*/
+   
+   .left-one {
+      float: left;
+      width: 35%;
+      background-color: rgb(255, 163, 194);
+      color: rgb(245, 255, 254);
+      font-style: italic;
+      font-size: 18px;
+      position: absolute;
+      height: 690px;
+   }
+   
+   #poem {
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+   }
+   
+   .right-one {
+      border: 12px solid rgb(255, 163, 194);
+      position: relative;
+      margin-left: 35%;
+      margin-top: 70px;
+      height: 666px;
+   }
+   
+   .video-two {
+      margin-top: 135px;
+      outline: none;
+   }
+   /*---------------FOOTER---------------------*/
+   
+   #footer {
+      background-color: rgb(255, 163, 194);
+      display: flex;
+      width: 100%;
+      margin-top: 200px;
+      position: absolute;
+      box-sizing: border-box;
+      font-size: large;
+      border-top: 0.4rem solid rgb(212, 175, 55);
+   }
+   
+   h1 {
+      margin: 10px 0px 0px 0px;
+      font-size: 30px;
+   }
+   
+   .footer-left {
+      position: relative;
+   }
+   
+   .footer-left>h1 {
+      color: rgb(8, 99, 218);
+      text-shadow: 6px 4px 4px white;
+      margin-left: 3rem;
+      margin-bottom: 0.7rem;
+   }
+   
+   .footer-right {
+      float: right;
+      position: relative;
+      box-sizing: border-box;
+      margin-left: auto;
+      width: 25rem;
+      text-align: center;
+      vertical-align: auto;
+      justify-content: center;
+      justify-items: center;
+      align-self: center;
+   }
+   
+   .footer-right>span {
+      color: rgb(245, 255, 254);
+      font-size: 35px;
+      font-style: italic;
+   }
+   
+   #card {
+      width: 25rem;
+      padding-left: 1rem;
+      margin-bottom: 10px;
+   }
+   
+   #card:hover {
+      animation: shake 0.5s;
+      animation-iteration-count: 2;
+   }
+   
+   @keyframes shake {
+      0% {
+         transform: translate(1px, 1px) rotate(0deg);
+      }
+      10% {
+         transform: translate(-1px, -2px) rotate(-1deg);
+      }
+      20% {
+         transform: translate(-3px, 0px) rotate(1deg);
+      }
+      30% {
+         transform: translate(3px, 2px) rotate(0deg);
+      }
+      40% {
+         transform: translate(1px, -1px) rotate(1deg);
+      }
+      50% {
+         transform: translate(-1px, 2px) rotate(-1deg);
+      }
+      60% {
+         transform: translate(-3px, 1px) rotate(0deg);
+      }
+      70% {
+         transform: translate(3px, 1px) rotate(-1deg);
+      }
+      80% {
+         transform: translate(-1px, -1px) rotate(1deg);
+      }
+      90% {
+         transform: translate(1px, 2px) rotate(0deg);
+      }
+      100% {
+         transform: translate(1px, -2px) rotate(-1deg);
+      }
+   }
+   
+   .footer-right>a {
+      text-decoration: none;
+      font-size: 20px;
+      vertical-align: auto;
+   }
+   
+   .botn {
+      background-color: rgb(255, 163, 194);
+      cursor: pointer;
+      border-width: 0px;
+   }
+   
+   .footer-mid {
+      align-self: flex-end;
+      margin-left: auto;
+      color: rgb(245, 255, 254);
+   }
