@@ -11,9 +11,14 @@
       }
 
       function initBody() {
+         if (window.innerWidth < 1334) {
+            alert("Your device is not compatible for viewing this webpage");
+            window.close();
+         } else {         
          var audioId = document.getElementById("audio");
          audioId.play();
          audioId.volume = 0.25;
+         }
       }
    </script>
 </head>
